@@ -8,7 +8,6 @@ Purpose: define a breadth first search function that takes in start and goal ver
 parameters and return the shortest path between the start and goal vertex
 """
 from collections import deque
-# BFS
 
 def breadth_first_search(start, goal):
     frontier = deque([start])
