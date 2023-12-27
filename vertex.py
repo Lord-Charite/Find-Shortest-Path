@@ -12,7 +12,6 @@ RADIUS = 8
 # stroke_width
 N = 2
 
-
 class Vertex:
     # x and y are coordinate of the location
     def __init__(self, name, x, y):
