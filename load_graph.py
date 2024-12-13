@@ -29,6 +29,8 @@ def load_graph(filename):
     fp.close()
 
     fp1 = open(filename, "r")
+
+    
     for line in fp1:
         field_list = line.split(";")
         for i in range(len(field_list)):
